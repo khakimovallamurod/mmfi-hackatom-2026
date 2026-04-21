@@ -1,0 +1,61 @@
+{
+  "system_info": {
+    "name": "AES Smart Analytics",
+    "version": "2.0.0",
+    "status": "active"
+  },
+  "metrics": {
+    "current_demand": 1450.5,
+    "avg_price": 450,
+    "current_temp": 28,
+    "production_status": 1
+  },
+  "history": [
+    { "hour": "00:00", "demand_kwh": 800, "prev_demand_kwh": 750, "temp": 22, "price_uzs": 300, "produce": 1, "is_holiday": 0 },
+    { "hour": "02:00", "demand_kwh": 600, "prev_demand_kwh": 620, "temp": 20, "price_uzs": 300, "produce": 1, "is_holiday": 0 },
+    { "hour": "04:00", "demand_kwh": 550, "prev_demand_kwh": 580, "temp": 19, "price_uzs": 300, "produce": 1, "is_holiday": 0 },
+    { "hour": "06:00", "demand_kwh": 900, "prev_demand_kwh": 850, "temp": 21, "price_uzs": 450, "produce": 1, "is_holiday": 0 },
+    { "hour": "08:00", "demand_kwh": 1400, "prev_demand_kwh": 1300, "temp": 24, "price_uzs": 600, "produce": 1, "is_holiday": 0 },
+    { "hour": "10:00", "demand_kwh": 1600, "prev_demand_kwh": 1550, "temp": 27, "price_uzs": 600, "produce": 1, "is_holiday": 0 },
+    { "hour": "12:00", "demand_kwh": 1800, "prev_demand_kwh": 1700, "temp": 30, "price_uzs": 600, "produce": 1, "is_holiday": 0 },
+    { "hour": "14:00", "demand_kwh": 1950, "prev_demand_kwh": 1800, "temp": 32, "price_uzs": 600, "produce": 1, "is_holiday": 0 },
+    { "hour": "16:00", "demand_kwh": 1700, "prev_demand_kwh": 1650, "temp": 31, "price_uzs": 600, "produce": 1, "is_holiday": 0 },
+    { "hour": "18:00", "demand_kwh": 1500, "prev_demand_kwh": 1400, "temp": 29, "price_uzs": 600, "produce": 1, "is_holiday": 0 },
+    { "hour": "20:00", "demand_kwh": 2100, "prev_demand_kwh": 1950, "temp": 26, "price_uzs": 750, "produce": 1, "is_holiday": 0 },
+    { "hour": "22:00", "demand_kwh": 1300, "prev_demand_kwh": 1200, "temp": 24, "price_uzs": 450, "produce": 1, "is_holiday": 0 }
+  ],
+  "holiday_analysis": [
+    { "category": "Working Day", "avg_demand": 1450, "peak_demand": 2100 },
+    { "category": "Holiday", "avg_demand": 950, "peak_demand": 1200 }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "Xakimov Allamurod",
+      "role": "Dasturchi",
+      "specialization": "Frontend & AI Integrations",
+      "photo": "/team/allamurod.png"
+    },
+    {
+      "id": 2,
+      "name": "Muzaffar Mustaffayev",
+      "role": "Dasturchi",
+      "specialization": "Data Visualization",
+      "photo": "/team/muzaffar.png"
+    },
+    {
+      "id": 3,
+      "name": "Baymatov Bobur",
+      "role": "Dasturchi",
+      "specialization": "Backend & Analytics",
+      "photo": "/team/bobur.png"
+    },
+    {
+      "id": 4,
+      "name": "Orzumurod Aralov",
+      "role": "Fizik",
+      "specialization": "Physical Modeling",
+      "photo": "/team/orzumurod.png"
+    }
+  ]
+}
